@@ -1,0 +1,9 @@
+
+train: cfg_mask/images/train/  # 128 images
+val:  cfg_mask/images/test/ # 128 images
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'mask_weared_incorrect', 'without_mask', 'with_mask' ]
